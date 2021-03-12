@@ -67,21 +67,17 @@ body {
 
 /* section */
 /* advantages */
-.advantages .title {
-  color: var(--main-text-color);
-}
+
 .advantages .paragraph {
   color: var(--secondary-text-color);
 }
 
 /* about-team */
-.section-title-image {
-  color: var(--main-text-color);
-}
+
 .about-team .paragraph {
   color: var(--secondary-text-color);
 }
-/* work-examples */
+/*Portfolio work-examples */
 .work-examples .title {
   color: var(--main-text-color);
 }
@@ -102,4 +98,13 @@ body {
 .button:hover,
 .button:focus {
   background-color: var(--acent-color);
+  color: var(--primary-bg-color);
+}
+.button-hero {
+  color: var(--primary-bg-color);
+  background-color: var(--acent-color);
+}
+.button-hero:hover {
+  color: var(--primary-bg-color);
+  background-color: #188ce8;
 }
