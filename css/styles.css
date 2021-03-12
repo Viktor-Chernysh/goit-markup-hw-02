@@ -1,0 +1,105 @@
+:root {
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --acent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+  --primary-button-color: #f5f4fa;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--main-text-color);
+}
+.list {
+  list-style: none;
+}
+/*цвет основного текста #212121; */
+
+/* вторичный цвет теста #757575; */
+
+/* цвет текста футера rgba(255, 255, 255, 0.6); */
+
+/* цвет лого studio #000000; */
+
+/* белый цвет #FFFFFF; */
+
+/* акцент #2196F3; */
+
+/* цвет основного фона #ffffff; */
+
+/* вторичный цвет фона #2F303A; */
+
+/* цвет хедера #FFFFFF; */
+
+/* WebStudio логотип */
+/* цвет кнопок #F5F4FA */
+.weblogo-link {
+  color: #000000;
+  text-decoration: none;
+}
+.web-logo {
+  color: var(--acent-color);
+}
+
+/* site-nav */
+.link {
+  text-decoration: none;
+}
+.site-nav a {
+  color: var(--main-text-color);
+}
+/* псевдокласс */
+.site-nav .active {
+  color: var(--acent-color);
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--acent-color);
+}
+.contact-information a {
+  text-decoration: none;
+  color: #757575;
+}
+.contact-information a:hover,
+.contact-information a:focus {
+  color: var(--acent-color);
+}
+
+/* section */
+/* advantages */
+.advantages .title {
+  color: var(--main-text-color);
+}
+.advantages .paragraph {
+  color: var(--secondary-text-color);
+}
+
+/* about-team */
+.section-title-image {
+  color: var(--main-text-color);
+}
+.about-team .paragraph {
+  color: var(--secondary-text-color);
+}
+/* work-examples */
+.work-examples .title {
+  color: var(--main-text-color);
+}
+.work-examples .paragraph {
+  color: var(--secondary-text-color);
+}
+
+/* footer  */
+.contact-information .footer-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* button */
+.button {
+  color: var(--main-text-color);
+  background-color: var(--primary-button-color);
+}
+.button:hover,
+.button:focus {
+  background-color: var(--acent-color);
+}
