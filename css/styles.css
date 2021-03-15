@@ -126,6 +126,10 @@ body {
 }
 
 /* about-team */
+.team {
+background-color: var(--primary-button-color);
+}
+
 .team .section-title {
   font-weight: bold;
   font-size: 36px;
