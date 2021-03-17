@@ -36,16 +36,26 @@ body {
 
 /* WebStudio логотип */
 /* цвет кнопок #F5F4FA */
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1200px;
+  padding: 0 15px;
+
+}
+
 .weblogo-link {
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   color: #000000;
 }
 .weblogo-link.white {
-  text-decoration: none;
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   color: var(--primary-bg-color);
@@ -58,9 +68,9 @@ body {
 /* site-nav */
 .link {
   text-decoration: none;
-}
-.site-nav a {
   color: var(--main-text-color);
+}
+.site-nav .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -70,11 +80,11 @@ body {
 .site-nav .active {
   color: var(--acent-color);
 }
-.site-nav a:hover,
-.site-nav a:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
   color: var(--acent-color);
 }
-.contact-information a {
+.contact-information .link {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -119,7 +129,7 @@ body {
 }
 /* about-work */
 .work .section-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1,17;
   text-align: center;
@@ -131,7 +141,7 @@ background-color: var(--primary-button-color);
 }
 
 .team .section-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -158,7 +168,7 @@ background-color: var(--primary-button-color);
   text-decoration: none;
 }
 .work-examples .title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -189,8 +199,11 @@ background-color: var(--primary-button-color);
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
-  font-family: inherit;
   cursor: pointer;
+  border-radius: 4px;
+  padding: 6px 22px;
+  min-width: 73px;
+  border: 1px solid transparent;
   color: var(--main-text-color);
   background-color: var(--primary-button-color);
 }
@@ -208,16 +221,21 @@ background-color: var(--primary-button-color);
 
 .button-hero {
   font-family: inherit;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
   cursor: pointer;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+  height: 50px;
+  border: 1px solid transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: var(--primary-bg-color);
   background-color: var(--acent-color);
 }
 .button-hero:hover {
-  font-family: inherit;
   color: var(--primary-bg-color);
   background-color: #188ce8;
 }
